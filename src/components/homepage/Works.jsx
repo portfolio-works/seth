@@ -8,11 +8,7 @@ import Heading from '../ui/Heading'
 
 export default function Works({ forwardedRef }) {
   return (
-    <section
-      ref={forwardedRef}
-      id="works"
-      className="nav-change my-[10%] overflow-hidden"
-    >
+    <section ref={forwardedRef} id="works" className="nav-change my-[10%] overflow-hidden">
       <Heading title="Projects" />
       <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
         {/* Project */}
@@ -58,34 +54,23 @@ export default function Works({ forwardedRef }) {
             img={imageThree}
             alt="HcMatrix 3.0"
             name="HcMatrix 3.0"
-            type="Frontend Development • SASS"
+            type="FullStack Development • SASS"
             year="2023"
-            tools="React • TailwindCSS • Typescript • AntDesign  • React Query • SASS "
+            tools="React • TailwindCSS • SASS "
           />
         </div>
         {/* pending */}
         <div className="col-span-1 h-fit md:col-span-4">
           <Projects
-            link="https://sunnysidechallenge.netlify.app"
+            link=""
             img={imageFive}
             alt="Vine Charge Sass"
             name="VINE CHARGE (EV SOLUTION)"
-            type="Frontend Development • SASS"
-            year="2022"
-            tools="React • TailwindCSS • ShadCN • React Query"
+            type="FullStack Development • SASS"
+            year="2025"
+            tools="React • ShadCN"
           />
         </div>
-        {/* <div className="col-span-1 h-fit md:col-span-4">
-          <Projects
-            link="https://sunnysidechallenge.netlify.app"
-            img={imageFive}
-            alt="sunnyside project mockup"
-            name="SUNNYSIDE LANDING PAGE"
-            type="Frontend Development"
-            year="2022"
-            tools="HTML • TailwindCSS • JavaScript"
-          />
-        </div> */}
       </div>
     </section>
   )

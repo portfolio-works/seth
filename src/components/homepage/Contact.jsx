@@ -19,16 +19,8 @@ export default function Contact() {
       // markers: true,
       animation: gsap
         .timeline()
-        .to(
-          heading.current,
-          { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 },
-          0,
-        )
-        .to(
-          body.current,
-          { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 },
-          0.2,
-        ),
+        .to(heading.current, { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 }, 0)
+        .to(body.current, { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 }, 0.2),
 
       toggleActions: 'play none none none',
     })
@@ -42,11 +34,7 @@ export default function Contact() {
   })
 
   return (
-    <section
-      id="contact"
-      className="my-[10%] overflow-hidden"
-      aria-label="contact me"
-    >
+    <section id="contact" className="my-[10%] overflow-hidden" aria-label="contact me">
       <Heading title="Contact" />
       <div
         ref={contactSection}
@@ -130,18 +118,14 @@ export default function Contact() {
             >
               <span className="relative">
                 <span className="absolute bottom-2 h-1 w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
-                <span className="group-hover:text-accent-400">
-                  Send Message
-                </span>
+                <span className="group-hover:text-accent-400">Send Message</span>
               </span>
             </button>
           </form>
         </div>
         <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-0 md:grid-cols-1">
           <div className="space-y-3 ">
-            <h4 className="text-body-1 font-semibold 2xl:text-4xl">
-              Contact Details
-            </h4>
+            <h4 className="text-body-1 font-semibold 2xl:text-4xl">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
                 href="mailto:odioraino@gmail.com"
@@ -149,28 +133,14 @@ export default function Contact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>odioraino@gmail.com</span>
+                <span>odiorseth@gmail.com</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
               </a>
             </div>
           </div>
           <div className="space-y-3 ">
-            <h4 className="text-body-1 font-semibold 2xl:text-4xl">
-              My Digital Spaces
-            </h4>
+            <h4 className="text-body-1 font-semibold 2xl:text-4xl">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
-              {/* <a
-                href="https://bento.me/huyng"
-                className="group flex items-center space-x-2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Icon icon="simple-icons:bento" color="#666" />
-                <div className="relative">
-                  <span>Bento</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
-                </div>
-              </a> */}
               <a
                 href="https://github.com/Dev-Odior"
                 className="group flex items-center space-x-2"
@@ -183,8 +153,8 @@ export default function Contact() {
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
-              {/* <a
-                href="https://www.linkedin.com/in/huyng03/"
+              <a
+                href="https://www.linkedin.com/in/seth-godspower-odior-44b035361"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -194,19 +164,7 @@ export default function Contact() {
                   <span>LinkedIn</span>
                   <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
-              </a> */}
-              {/* <a
-                href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
-                className="group flex items-center space-x-2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Icon icon="mdi:youtube" color="#666" />
-                <div className="relative">
-                  <span>YouTube</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
-                </div>
-              </a> */}
+              </a>
             </div>
           </div>
           <div className="space-y-3 ">
