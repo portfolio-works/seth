@@ -19,8 +19,8 @@ export default function Works({ forwardedRef }) {
             alt="HcMatrix 3.0"
             name="HcMatrix 3.0"
             type="Backend Development • SASS"
-            year="2023"
-            tools="NodeJS • Express • SQL "
+            year="2025"
+            tools="NodeJS • Express • SQL"
           />
         </div>
         {/* Project */}
