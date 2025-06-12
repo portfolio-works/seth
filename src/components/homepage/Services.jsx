@@ -18,6 +18,8 @@ export default function Services() {
     'gRPC',
     'Express',
     'RabbitMq',
+    'Photoshop',
+    'Corel Draw',
   ]
 
   return (
