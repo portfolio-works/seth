@@ -2,25 +2,16 @@ import ServiceUi from '../ui/ServiceUi'
 import Heading from '../ui/Heading'
 
 export default function Services() {
-  const expertiseItems = [
-    'FrontEnd Development',
-    'BackEnd Development',
-    'Graphics Design',
-    'Search Engine Optimization',
-  ]
+  const expertiseItems = ['BackEnd Development', 'FrontEnd Development', 'Graphics Design']
 
   const toolBoxItems = [
     'TypeScript',
     'JavaScript',
-    'ReactJS/TS',
-    'Framer Motion',
+    'React',
+    'NodeJs',
     'TailwindCSS',
     'React Query',
-    'AndDesign',
     'ShadCN',
-    'GSAP',
-    'HTML',
-    'CSS',
     'Next',
     'Nest',
     'Redux',
@@ -33,7 +24,7 @@ export default function Services() {
       <div className="space-y-14">
         <ServiceUi
           title="my expertises."
-          description="I focus on all things web development. With each of my
+          description="I focus on all things software development. With each of my
           services, my goal is to deliver an impactful and elevating
           digital experience for everyone."
           items={expertiseItems}

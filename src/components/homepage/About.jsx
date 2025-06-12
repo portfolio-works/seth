@@ -16,16 +16,8 @@ export default function About() {
       start: 'top 400px',
       animation: gsap
         .timeline()
-        .to(
-          heading.current,
-          { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 },
-          0,
-        )
-        .to(
-          body.current,
-          { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 },
-          0.2,
-        ),
+        .to(heading.current, { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 }, 0)
+        .to(body.current, { opacity: 1, y: 0, ease: 'power4.out', duration: 1.25 }, 0.2),
 
       toggleActions: 'play none none none',
     })
@@ -56,18 +48,14 @@ export default function About() {
             >
               A brief intro, who am I?
             </h3>
-            <p
-              ref={body}
-              className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl"
-            >
-              I am a full stack developer and Graphics designer based in Lagos,
-              Nigeria.
+            <p ref={body} className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl">
+              My name is Odior (Godspower) seth. I am a full stack developer and Graphics designer
+              based in Lagos, Nigeria.
               <br></br>
-              <br></br>I am a versatile software developer with expertise in
-              frontend and backend development, specializing in scalable and
-              high-performance applications. With experience across EV charging
-              solutions, enterprise applications, and real estate platforms, I
-              bring a problem-solving mindset and a user-focused approach to
+              <br></br>I am a versatile software developer with expertise in frontend and backend
+              development, specializing in scalable and high-performance applications. With
+              experience across EV charging solutions, enterprise applications, and real estate
+              platforms, I bring a problem-solving mindset and a user-focused approach to
               development. 😎
             </p>
           </div>

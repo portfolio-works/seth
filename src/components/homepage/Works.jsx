@@ -14,25 +14,25 @@ export default function Works({ forwardedRef }) {
         {/* Project */}
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link="https://www.airopay.ae/"
-            img={imageFour}
-            alt="Airopay Landing page"
-            name="AIROPAY"
-            type="Frontend Development • Landing Page"
-            year="2024"
-            tools="TailwindCSS • React • Framer Motion"
+            link="https://app.hcmatrix.com/"
+            img={imageThree}
+            alt="HcMatrix 3.0"
+            name="HcMatrix 3.0"
+            type="Backend Development • SASS"
+            year="2023"
+            tools="NodeJS • Express • SQL "
           />
         </div>
         {/* Project */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://ellington-funds.vercel.app/"
-            img={image}
-            alt="Airofunds"
-            name="AiroFunds"
-            type="Frontend Development • Landing Page "
-            year="2024"
-            tools="React • TailwindCSS • Typescript"
+            link=""
+            img={imageFive}
+            alt="Vine Charge Sass"
+            name="VINE CHARGE (EV SOLUTION)"
+            type="FullStack Development • SASS"
+            year="2025"
+            tools="React • ShadCN • NestJs • SQL"
           />
         </div>
         {/* Project */}
@@ -42,7 +42,7 @@ export default function Works({ forwardedRef }) {
             img={imageTwo}
             alt="Airofunds"
             name="User Guide App"
-            type="Frontend Development • SASS"
+            type="FullStack Development • SASS"
             year="2024"
             tools="React • TailwindCSS • AntDesign • Redux"
           />
@@ -50,25 +50,25 @@ export default function Works({ forwardedRef }) {
         {/* Project*/}
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://app.hcmatrix.com/"
-            img={imageThree}
-            alt="HcMatrix 3.0"
-            name="HcMatrix 3.0"
-            type="FullStack Development • SASS"
-            year="2023"
-            tools="React • TailwindCSS • SASS "
+            link="https://www.airopay.ae/"
+            img={imageFour}
+            alt="Airopay Landing page"
+            name="AIROPAY"
+            type="Frontend Development • Landing Page"
+            year="2024"
+            tools="TailwindCSS • React • Framer Motion"
           />
         </div>
         {/* pending */}
         <div className="col-span-1 h-fit md:col-span-4">
           <Projects
-            link=""
-            img={imageFive}
-            alt="Vine Charge Sass"
-            name="VINE CHARGE (EV SOLUTION)"
-            type="FullStack Development • SASS"
-            year="2025"
-            tools="React • ShadCN"
+            link="https://ellington-funds.vercel.app/"
+            img={image}
+            alt="Airofunds"
+            name="AiroFunds"
+            type="Frontend Development • Landing Page "
+            year="2024"
+            tools="React • TailwindCSS • Typescript"
           />
         </div>
       </div>
