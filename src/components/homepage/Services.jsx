@@ -15,7 +15,9 @@ export default function Services() {
     'Next',
     'Nest',
     'Redux',
+    'gRPC',
     'Express',
+    'RabbitMq',
   ]
 
   return (
